@@ -63,7 +63,7 @@ $(function () {
 				$('.menu-btn').trigger('click');
 			}
 		} else {
-			$('body').removeClass('loaded');
+			//$('body').removeClass('loaded');
 			setTimeout(function() {
 				location.href = "" + link;
 			}, 500);
@@ -78,7 +78,7 @@ $(function () {
 			$('body').addClass('loaded');
 		} else {
 			$('header').addClass('active');
-			$('body').removeClass('loaded');
+			//$('body').removeClass('loaded');
 		}
 		
 		return false;
